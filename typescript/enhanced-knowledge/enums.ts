@@ -1,10 +1,10 @@
 enum State {
-	On,  // 0
-	Off  // 1
+  On, // 0
+  Off, // 1
 }
 
-const status: State = State.On
+const status: State = State.On;
 
 //console.log(status)
 
-console.log(State.Off)
+console.log(State.Off);
