@@ -56,5 +56,4 @@ class Mammal extends Animal {
   }
   
   const crocodile = new Reptile("Angel", "Crocodylus", "novaeguineae");
-  console.log(crocodile.genus); // this will error. experiment by removing this line.
   crocodile.getSpecies();
