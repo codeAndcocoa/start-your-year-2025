@@ -1,4 +1,4 @@
-function plus(x: number | string, y: number | string) {
+function plus(x: number | string | undefined, y: number | string | undefined) {
   if ((typeof x === "number") && (typeof y === "number")) return x + y;
   if ((typeof x === undefined) || (typeof y === undefined)) return undefined;
   if ((typeof x === "string") && (typeof y === "string")) return x + y;
